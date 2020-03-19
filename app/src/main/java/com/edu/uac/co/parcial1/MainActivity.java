@@ -146,13 +146,17 @@ public class MainActivity extends AppCompatActivity {
     public void selectItem(View v) {
         boolean checked = ((CheckBox) v).isChecked();
 
+        familyCb.setError(null);
+        workCb.setError(null);
+        friendCb.setError(null);
+        ocationalCb.setError(null);
+
         switch (v.getId()){
             case R.id.familyCheck:
                 if(checked){
                     newGroup = "Familia";
                 }
                 break;
-
             case R.id.workCheck:
                 if(checked){
                     newGroup = "Trabajo";
@@ -210,6 +214,7 @@ public class MainActivity extends AppCompatActivity {
         String rndNum = ("3" + rndPre + "0" + set1 + set2);
 
         phone.setText(rndNum);
+        phone.setError(null);
 
     }
 
