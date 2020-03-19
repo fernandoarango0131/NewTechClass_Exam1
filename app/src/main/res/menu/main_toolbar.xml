@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.edu.uac.co.parcial1.MainActivity">
+
+    <item
+        android:title="Menu Agregar Contacto"
+        android:icon="@drawable/ic_menu_black_24dp"
+        app:showAsAction="always"
+        >
+
+        <menu>
+            <item
+                android:title="Limpiar Datos"
+                android:id="@+id/clearAll"
+                android:icon="@drawable/ic_clear_black_24dp"
+                app:showAsAction="never"/>
+            <item
+                android:title="Lista de Contactos"
+                android:id="@+id/showContactList"
+                android:icon="@drawable/ic_cloud_upload_black_24dp"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Parcial1</string>
+    <string name="nombre_de_contacto">Nombre de Contacto</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="escribe_nombre">Escribe el nombre aqui..</string>
+    <string name="escribe_tel">Escribe el teléfono aquí..</string>
+    <string name="grupo">Grupo</string>
+    <string name="ocacional">Ocacional</string>
+    <string name="amigo">Amigo</string>
+    <string name="trabajo">Trabajo</string>
+    <string name="familia">Familia</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="guardar">GUARDAR</string>
+</resources>
