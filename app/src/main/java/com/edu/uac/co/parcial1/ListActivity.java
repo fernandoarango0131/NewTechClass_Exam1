@@ -34,13 +34,17 @@ public class ListActivity extends AppCompatActivity {
 
         contactLst.setAdapter(adapter);
 
-        Intent i = getIntent();
-        Contact c = i.getParcelableExtra("contact");
+        Bundle incommingMessages = getIntent().getExtras();
+        if(incommingMessages != null){
 
-        myContacts.getContactList().add(c);
+            Intent i = getIntent();
+            Contact c = i.getParcelableExtra("contact");
 
-        adapter.notifyDataSetChanged();
+            myContacts.getContactList().add(c);
 
+            adapter.notifyDataSetChanged();
+
+        }
     }
 
     @Override
